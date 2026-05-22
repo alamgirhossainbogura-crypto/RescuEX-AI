@@ -2,7 +2,7 @@
 
 An autonomous, zero-touch, voice-activated emergency chaining engine designed to act as a fail-safe lifeline when victims are completely incapacitated.
 
-🌐 **Live Demo:** [RescuEX AI Live Deployment](https://9bf1623e-0875-4e1e-b5a2-f49348dc0efe-00-1cg2xy8wyuvwx.pike.replit.dev/)
+🌐 **Live Demo:** (https://9bf1623e-0875-4e1e-b5a2-f49348dc0efe-00-1cg2xy8wyuvwx.pike.replit.dev/)
 
 ---
 
