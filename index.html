@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RescuEX AI - Autonomous SOS Engine</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>RescuEX AI 🛡️⚡</h1>
+            <p class="subtitle">Autonomous Voice-Activated Emergency Chaining Engine</p>
+        </header>
+
+        <main>
+            <!-- Configuration Section -->
+            <section class="config-box" id="configSection">
+                <h3>🚨 Emergency Contacts Setup</h3>
+                <div class="input-group">
+                    <label for="primaryContact">Primary Contact Num:</label>
+                    <input type="tel" id="primaryContact" placeholder="+8801XXXXXXXXX" required>
+                </div>
+                <div class="input-group">
+                    <label for="backupContact">Backup Contact Num:</label>
+                    <input type="tel" id="backupContact" placeholder="+8801XXXXXXXXX" required>
+                </div>
+                <button id="btnDone" class="btn-primary">Done (Save & Arm)</button>
+            </section>
+
+            <!-- Status & Control Section -->
+            <section class="status-box">
+                <div id="statusIndicator" class="status-mode mode-idle">System: Disarmed</div>
+                <p id="locationDisplay">GPS: Waiting for activation...</p>
+                
+                <div class="action-buttons">
+                    <button id="btnManualTrigger" class="btn-danger">MANUAL TRIGGER (SOS)</button>
+                    <button id="btnRestart" class="btn-secondary" style="display: none;">Restart / Reset</button>
+                </div>
+            </section>
+        </main>
+
+        <!-- Hidden Audio Element for Voice Broadcast -->
+        <audio id="emergencyAudio" src="emergency.mp3" loop></audio>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
